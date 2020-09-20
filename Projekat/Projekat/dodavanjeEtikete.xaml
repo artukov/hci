@@ -1,0 +1,24 @@
+﻿<Window x:Class="Projekat.dodavanjeEtikete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="dodavanjeEtikete" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label" Content="Oznaka" HorizontalAlignment="Left" Margin="37,39,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Boja" HorizontalAlignment="Left" Margin="37,93,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Opis" HorizontalAlignment="Left" Margin="37,172,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="151,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+      
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="151,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Dodaj" HorizontalAlignment="Left" Margin="151,229,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="button1" Content="Odustani" HorizontalAlignment="Left" Margin="58,229,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
+        <ComboBox x:Name="boja" HorizontalAlignment="Left" Margin="151,96,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem>Crvena</ComboBoxItem>
+            <ComboBoxItem>Plava</ComboBoxItem>
+            <ComboBoxItem>Zuta</ComboBoxItem>
+        </ComboBox>
+
+    </Grid>
+</Window>
